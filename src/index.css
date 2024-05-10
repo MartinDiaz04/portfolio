@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root {
+  background: linear-gradient(
+    to bottom,
+    rgb(109, 6, 6) 10%,
+    rgb(145, 45, 45) 60%,
+    rgb(180, 98, 98, 2) 100%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+header {
+  background-color: black;
+  height: auto;
+}
+
+header ul li a {
+  position: relative;
+  display: block;
+}
+
+

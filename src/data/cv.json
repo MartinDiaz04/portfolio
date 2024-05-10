@@ -1,0 +1,237 @@
+{
+  "basics": {
+    "name": "Martín Díaz Preiero",
+    "label": "Full Stack Developer Junior",
+    "image": "/me.webp",
+    "email": "martinpreierodiaz@gmail.com",
+    "phone": "+598 93390497",
+    "url": "",
+    "summary": "Estudiante de la carrera Analista en Tecnologías de la Información en la Facultad ORT, cursando segundo año. Estoy en busca de mi primera experiencia laboral.",
+    "location": {
+      "address": "",
+      "postalCode": "90000",
+      "city": "Canelones",
+      "countryCode": "UY",
+      "region": "Uruguay"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "MartinDiazPreiero",
+        "url": "https://www.linkedin.com/in/martin-diaz-preiero-0786682b1/"
+      },
+      {
+        "network": "GitHub",
+        "username": "MartinDiaz04",
+        "url": "https://github.com/MartinDiaz04"
+      }
+    ]
+  },
+  "education": [{
+    "institution": "Universidad ORT Uruguay",
+    "url": "https://www.ort.edu.uy/",
+    "area": "Analista en Tecnologías de la Información",
+    "startDate": "2023-01-01",
+    "endDate": null
+  },
+  {
+    "institution": "Universidad de la República",
+    "url": "https://www.fing.edu.uy/",
+    "area": "Ingenieria en Computación",
+    "startDate": "2022-01-01",
+    "endDate": "2023-01-01"
+  }
+  ],
+  
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo", "Backend", "Desarrollo de Aplicaciones"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo ", "Backend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermedio"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "BlogDeCafe",
+      "isActive": true,
+      "description": "Blog de Cafe",
+      "highlights":[
+        "Diseño Web",
+        "JavaScript",
+        "CSS"
+      ],
+      "url": "https://blogdecafefront.netlify.app/",
+      "github": "https://github.com/MartinDiaz04"
+    },
+    {
+      "name": "Aplicación Móvil",
+      "isActive": true,
+      "description": "Aplicación móvil para contar calorías",
+      "highlights":[
+        "Aplicacion Movil",
+        "JavaScript",
+        "Ionic"
+      ],
+      "url": "https://github.com/MartinDiaz04/AplicacionMovil",
+      "github": "https://github.com/MartinDiaz04/AplicacionMovil"
+    },
+    {
+      "name": "Red Social",
+      "isActive": true,
+      "description": "Red Social desarrollada en C# .NET",
+      "highlights":[
+        "Red Social",
+        "C#"
+      ],
+      "url": "https://github.com/MartinDiaz04/proyectoProgramacion2",
+      "github": "https://github.com/MartinDiaz04/AplicacionMovil"
+    },
+    {
+      "name": "Dominos",
+      "isActive": true,
+      "description": "Diseño pizzería Domino's",
+      "highlights":[
+        "Domino's",
+        "Diseño",
+        "Diseño Responsive"
+      ],
+      "url": "https://github.com/MartinDiaz04/sitioDominos",
+      "github": "https://github.com/MartinDiaz04/AplicacionMovil"
+    },
+    {
+      "name": "Wimbledon",
+      "isActive": true,
+      "description": "Diseño Wimbledon tenis",
+      "highlights": [
+        "Wimbledon",
+        "Diseño",
+        "Diseño Responsive"
+      ],
+      "url": "https://github.com/MartinDiaz04/sitioWimbledon",
+      "github": "https://github.com/MartinDiaz04/AplicacionMovil"
+    },
+    {
+      "name": "Sitio Censos",
+      "description": "Sitio para realizar censos",
+      "highlights": [
+        "JavaScript",
+        "CSS",
+        "Censos"
+      ],
+      "url": "https://github.com/MartinDiaz04/proyectoProgramacion1",
+      "github": "https://github.com/MartinDiaz04/AplicacionMovil"
+    }
+  ]
+}
