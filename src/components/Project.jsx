@@ -1,11 +1,12 @@
 import React from 'react'
+import {data} from '../data/data'
 
 function Project() {
   return (
     <div>
-      <h1>Proyecto 1</h1>
-      <h3>Descripcion</h3>
-      <h4>Descripcion</h4>
+      <article className=''>
+        
+      </article>
     </div>
   )
 }
