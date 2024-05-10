@@ -27,6 +27,7 @@ const NavBar = () => {
       <figure className="h-64 w-auto mx-5 my-5 flex justify-center items-center">
         <img src="/img/foto.png" className="rounded-full h-auto w-64"></img>
       </figure>
+      <h1>hola</h1>
       <div className="w-auto mx-5 my-5 grid grid-cols-1 justify-center items-center">
         <h1 className="text-white m-auto font-bold text-5xl mb-2">
           {data.name}
