@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/studies/(.*)", "destination": "/index.html" },
+      { "source": "/projects/(.*)", "destination": "/index.html" }
+    ]
+  }
