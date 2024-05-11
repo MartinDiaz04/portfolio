@@ -8,7 +8,7 @@ import { FaRegFilePdf } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="text-center bg-black pb-5 bottom-0 w-full">
+    <footer className="text-center bg-black py-5 bottom-0 w-full">
       <div className="flex items-center justify-center">
         <a href={data.urlLinkedIn} className="text-white text-5xl mx-4">
           <FaLinkedin />
