@@ -4,12 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-header{
-  display: flex;
-  justify-content: center;
-  background-color: black;
+.root{
+  height: 100%;
 }
-
 
 header ul li a {
   position: relative;

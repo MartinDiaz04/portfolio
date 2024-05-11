@@ -7,39 +7,34 @@ import Footer from "./Footer";
 
 const NavBar = () => {
   return (
-    <div className="flex-wrap gap-5 h-screen">
+    <div className="bg-black h-screen flex flex-col">
       <Header />
-      <main className="bg-black h-auto">
-        <figure className=" w-auto flex justify-center my-10">
+      <main className="flex-1 flex flex-col items-center justify-center">
+        <figure>
           <img
-            src="/img/foto.png"
-            className="rounded-full h-auto w-44 md:w-64"
-          ></img>
+            src="me.webp"
+            alt={data.name}
+            className="rounded-full w-44 md:w-64 mb-4"
+          />
         </figure>
-        <div className="w-auto mx-5 my-16 grid grid-cols-1">
-          <h1 className="text-white m-auto font-bold text-3xl md:text-5xl mb-2 ">
-            {data.name}
-          </h1>
-          <h2 className="text-white m-auto text-2xl  md:text-3xl">
-            {data.label}
-          </h2>
-          <h4 className="text-white m-auto flex items-center text-lg md:text-xl">
-            <TbWorld className="mr-1" /> {data.location}
-          </h4>
-          <ul className="flex justify-center mt-3">
-            <li>
-              <a
-                href="/CV/CV Martín Díaz Preiero SPANISH.pdf"
-                download="CV Martín Díaz Preiero SPANISH.pdf"
-                className="text-white text-center mt-2 flex items-center"
-              >
-                <FaRegFilePdf /> Descargar CV
-              </a>
-            </li>
-          </ul>
-        </div>
-      </main>
 
+        <h1 className="text-white font-bold text-3xl md:text-5xl mb-2">
+          {data.name}
+        </h1>
+        <h2 className="text-white text-2xl md:text-3xl mb-4">{data.label}</h2>
+        <div className="flex items-center mb-4">
+          <TbWorld aria-label="Location" className="mr-1 text-white" />
+          <span className="text-white text-lg md:text-xl">{data.location}</span>
+        </div>
+        <a
+          href="cvmartin.pdf"
+          download="MartinDiazCV"
+          className="text-white flex items-center mb-4"
+        >
+          <FaRegFilePdf aria-label="Download CV" className="mr-1" />
+          Descargar CV
+        </a>
+      </main>
       <Footer />
     </div>
   );
