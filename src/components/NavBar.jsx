@@ -14,10 +14,10 @@ const NavBar = () => {
             className="rounded-full w-64 mb-7"
           />
         </figure>
-        <h1 className="text-white font-bold text-3xl sm:text-5xl mb-2">
+        <h1 className="text-white text-center font-bold text-3xl sm:text-5xl mb-2">
           {data.name}
         </h1>
-        <h2 className="text-white text-2xl sm:text-3xl mb-4">{data.label}</h2>
+        <h2 className="text-white text-center text-2xl sm:text-3xl mb-4">{data.label}</h2>
         <div className="flex items-center mb-4">
           <TbWorld aria-label="Location" className="mr-1 text-white" />
           <span className="text-white text-lg sm:text-xl">{data.location}</span>
