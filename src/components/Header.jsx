@@ -25,7 +25,7 @@ function Header() {
             <li key={index} className="list-none text-center h-max p-3 mx-3">
               <a
                 href={x.href}
-                className="text-white bg-black p-3 rounded-xl md:text-3xl text-2xl"
+                className="text-white bg-black p-3 rounded-xl sm:text-3xl text-2xl"
               >
                 {x.name}
               </a>
