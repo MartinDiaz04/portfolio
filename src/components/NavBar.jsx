@@ -6,12 +6,12 @@ import { data } from "../data/data";
 const NavBar = () => {
   return (
     <div className="bg-black h-screen flex flex-col">
-      <main className="flex-1 flex flex-col items-center justify-center">
+      <main className="flex-1 flex flex-col items-center justify-start sm:justify-center">
         <figure>
           <img
             src="me.webp"
             alt={data.name}
-            className="rounded-full w-44 md:w-64 mb-4"
+            className="rounded-full w-64 mb-7"
           />
         </figure>
         <h1 className="text-white font-bold text-3xl md:text-5xl mb-2">
