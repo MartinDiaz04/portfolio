@@ -2,13 +2,10 @@ import React from "react";
 import { TbWorld } from "react-icons/tb";
 import { FaRegFilePdf } from "react-icons/fa";
 import { data } from "../data/data";
-import Header from "./Header";
-import Footer from "./Footer";
 
 const NavBar = () => {
   return (
     <div className="bg-black h-screen flex flex-col">
-      <Header />
       <main className="flex-1 flex flex-col items-center justify-center">
         <figure>
           <img
@@ -17,7 +14,6 @@ const NavBar = () => {
             className="rounded-full w-44 md:w-64 mb-4"
           />
         </figure>
-
         <h1 className="text-white font-bold text-3xl md:text-5xl mb-2">
           {data.name}
         </h1>
@@ -34,8 +30,7 @@ const NavBar = () => {
           <FaRegFilePdf aria-label="Download CV" className="mr-1" />
           Descargar CV
         </a>
-      </main>
-      <Footer />
+      </main>      
     </div>
   );
 };

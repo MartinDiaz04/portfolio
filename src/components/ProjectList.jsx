@@ -4,10 +4,7 @@ function ProjectList() {
     
   return (
     <div>
-      <Project />
-      <Project />
-      <Project />
-      <Project />
+      
     </div>
   )
 }

@@ -18,9 +18,9 @@ const links = [
 
 function Header() {
   return (
-    <header className="grid grid-cols-1 items-start justify-center h-auto bg-black ">
-        <nav className="w-auto mx-5 p-7">
-        <ul className="list-none sm:flex sm:items-center sm:justify-center h-auto max-w-xl m-auto">
+    <header className="flex items-start justify-center h-auto bg-black ">
+        <nav className="w-auto p-7">
+        <ul className="list-none sm:flex sm:items-center sm:justify-center h-auto m-auto">
           {links.map((x, index) => (
             <li key={index} className="list-none text-center h-max p-3 mx-3">
               <a
