@@ -27,3 +27,22 @@ header ul li a::before {
 header ul li a:hover::before {
   transform: scaleX(1);
 }
+
+#aparicion{
+  opacity: 0;
+  animation-name: aparicion;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aparicion{
+  0%{
+    opacity:0;
+    transform:scale(2) translateY(75px);
+  }
+  100%{
+    opacity:1;
+    transform:scale(1) translateY(0px);
+  }
+}
