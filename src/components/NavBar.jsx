@@ -8,7 +8,7 @@ import { CiMail, CiPhone } from "react-icons/ci";
 
 const NavBar = () => {
   return (
-    <div id="aparicion" className="h-screen bg-black flex flex-col">
+    <div className="h-screen bg-black flex flex-col">
       <main className="flex-1 flex flex-col items-center justify-start sm:justify-center m-12 sm:mt-0">
         <figure>
           <img
