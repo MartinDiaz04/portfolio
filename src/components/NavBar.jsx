@@ -8,7 +8,7 @@ import { CiMail, CiPhone } from "react-icons/ci";
 
 const NavBar = () => {
   return (
-    <div className="h-screen bg-black flex flex-col">
+    <div id="aparicion" className="h-screen bg-black flex flex-col">
       <main className="flex-1 flex flex-col items-center justify-start sm:justify-center m-12 sm:mt-0">
         <figure>
           <img
@@ -24,7 +24,7 @@ const NavBar = () => {
           {data.label}
         </h2>
         <div className="flex items-center mb-4">
-          <TbWorld aria-label="Location" className="mr-1 text-white" />
+          <TbWorld aria-label="Location" className="mr-1 text-white opacity-55" />
           <span className="text-white text-lg sm:text-xl opacity-55">
             {data.location}
           </span>

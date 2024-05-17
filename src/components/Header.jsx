@@ -6,19 +6,18 @@ const links = [
       href: "/",
     },
     {
+      name: "SOBRE MI",
+      href: "/aboutme",
+    },
+    {
       name: "PROYECTOS",
       href: "/projects",
     },
-    {
-      name: "EDUCACION",
-      href: "/studies",
-    },
   ];
-
 
 function Header() {
   return (
-    <header className="flex bg-black items-start justify-center h-auto ">
+    <header id='aparicion' className="flex bg-black items-start justify-center h-auto ">
         <nav className="w-auto p-7">
         <ul className="list-none sm:flex sm:items-center sm:justify-center h-auto m-auto">
           {links.map((x, index) => (
