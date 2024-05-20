@@ -5,7 +5,6 @@ import { data } from "../data/data";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { CiMail, CiPhone } from "react-icons/ci";
 
-
 const NavBar = () => {
   return (
     <div className="h-screen bg-black flex flex-col">
